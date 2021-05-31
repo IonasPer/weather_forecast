@@ -25,4 +25,4 @@ File Structure
  - App\ServiceWrapper is used to elegantly combine the two Service Components (ForecastService,NotificationService)
 
 
- - public/forecast.php handles the requests up to 10 times with header refresh using global $_GET from the browser and displays the response messages.
+ - public/index.php handles the requests up to 10 times with header refresh using global $_GET from the browser and displays the response messages.

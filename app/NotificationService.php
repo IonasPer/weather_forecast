@@ -16,9 +16,9 @@ class NotificationService extends BaseService
     private $encoded_credentials, $access_token,$phone;
     //todo swap the production credentials with dummy credentials when needing a new access token.
     //production credentials
-    const APPLICATIONID = '5f9138288b71de3617a87cd3',SECRET = 'RSj69jLowJ';
+    //const APPLICATIONID = '5f9138288b71de3617a87cd3',SECRET = 'RSj69jLowJ';
     //dummy credentials
-    //const APPLICATIONID = '1f1111888b71de3617a87cd3',SECRET = 'vjaj69jowJ';
+    const APPLICATIONID = '1f1111888b71de3617a87cd3',SECRET = 'vjaj69jowJ';
     public function __construct($phone)
     {
         $this->encoded_credentials = base64_encode(self::APPLICATIONID.":".self::SECRET);
