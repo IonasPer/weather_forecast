@@ -17,6 +17,12 @@ File Structure
  - /vendor - contains codesniffer packages
 
 
+run `composer install` to add the codesniffer packages
+or
+
+`composer require squizlabs/php_codesniffer ~3.0`
+
+`composer require slevomat/coding-standard ~4.0`
 
 ## Classes
  - App\BaseService is parent to the other two Service Component classes and contains common functionality.
